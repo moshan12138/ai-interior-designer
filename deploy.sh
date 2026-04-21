@@ -2,7 +2,7 @@
 set -e
 
 DEPLOY_DIR="/opt/ai-interior-designer"
-REPO_URL="https://github.com/YOUR_USERNAME/ai-interior-designer.git"
+REPO_URL="https://github.com/moshan12138/ai-interior-designer.git"
 
 if [ ! -d "$DEPLOY_DIR" ]; then
     echo "Cloning repository..."
