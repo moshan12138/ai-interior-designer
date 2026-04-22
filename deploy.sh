@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DEPLOY_DIR="/opt/ai-interior-designer"
+DEPLOY_DIR="$HOME/ai-interior-designer"
 REPO_URL="https://github.com/moshan12138/ai-interior-designer.git"
 
 if [ ! -d "$DEPLOY_DIR" ]; then
